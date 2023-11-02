@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inicio"
+        android:title="Inicio"
+        android:icon="@drawable/nav_inicio_img"/>
+    <item
+        android:id="@+id/nuevaplantita"
+        android:title="Nueva Plantita"
+        android:icon="@drawable/nav_inicio_img"/>
+    <item
+        android:id="@+id/editarplantita"
+        android:title="Editar Plantita"
+        android:icon="@drawable/nav_inicio_img"/>
+    <item
+        android:id="@+id/eliminaplantita"
+        android:title="Eliminar Plantita"
+        android:icon="@drawable/nav_inicio_img"/>
+    <item
+        android:title="..."/>
+
+</menu>

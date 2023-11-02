@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/nav_inicio_img"
+            android:title="Inicio"/>
+
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/nav_configuracion_img"
+            android:title="Configuraciones"/>
+
+        <item
+            android:id="@+id/nav_compartir"
+            android:icon="@drawable/nav_compartir_img"
+            android:title="Compartir"/>
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/nav_info_img"
+            android:title="Sobre Nosotros"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_salida"
+                android:icon="@drawable/nav_salida_img"
+                android:title="Cerrar Sesion"/>
+        </menu>
+
+    </item>
+
+</menu>

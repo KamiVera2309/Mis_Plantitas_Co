@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioNavFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="629dp"
+        android:fontFamily="monospace"
+        android:text="Inicio"
+        android:textColor="@color/verde_planta_oscuro"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="87dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="3dp"
+
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="21dp"
+        android:src="@drawable/logo_mediano" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="275dp"
+        android:layout_height="89dp"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="118dp"
+        android:text="Bienvenido a la aplicacion ´´Mis plantitas'' Aqui podras organizar distintas cosas, tanto cuantas veces les das agua, como cuando les tienes que cambiar el sustrato. Y demás cosas de papá de plantas." />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="593dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-75dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="407dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tiposdehojas1" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

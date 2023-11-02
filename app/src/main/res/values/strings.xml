@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mis Plantitas</string>
+
+    <string name="open_nav">Navegador Abierto</string>
+    <string name="close_nav">Navegador Cerrado</string>
+
+    <string name="mapbox_access_token">pk.eyJ1IjoiY2FtaTIzMDkiLCJhIjoiY2xvOTlmOHpwMDN0dDJqcjFwc2Nsc2V1MiJ9.RX-4wVveCXL7oI3jNozztw</string>
+
+</resources>

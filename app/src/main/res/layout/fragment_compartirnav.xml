@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CompartirNavFragment">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="87dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="3dp"
+
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="21dp"
+        android:src="@drawable/logo_mediano" />
+
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="618dp"
+        android:fontFamily="monospace"
+        android:text="Compartir"
+        android:textColor="@color/verde_planta_oscuro"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="10dp"
+        android:text="Pueden Comentar." />
+
+    <TextView
+        android:id="@+id/comentarios_compartirfrag"
+
+        android:layout_width="266dp"
+        android:layout_height="158dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="126dp"
+
+        android:background="@drawable/borde_textview"
+
+        android:fontFamily="monospace"
+        android:hint="Escribe aqui lo que quieras de tu plantita :D"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="6dp"
+        android:layout_toEndOf="@+id/comentarios_compartirfrag"
+        android:fontFamily="monospace"
+        android:text="Enviar" />
+
+    <Button
+        android:id="@+id/agregar_imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="4dp"
+
+        android:layout_marginEnd="6dp"
+        android:fontFamily="monospace"
+        android:text="Agregar Foto" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="114dp"
+        android:background="?android:attr/listDivider" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="291dp"
+        android:background="?android:attr/listDivider" />
+
+
+
+</RelativeLayout>
