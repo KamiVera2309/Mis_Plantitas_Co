@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "778072160369",
+    "project_id": "mis-plantitas-81a35",
+    "storage_bucket": "mis-plantitas-81a35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778072160369:android:6739a5d0b75957b11d43d0",
+        "android_client_info": {
+          "package_name": "com.misplantitas.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu0aDDPZSQ6qU-2H6Qp8tVfqSKq0gC7cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -50,7 +50,7 @@
         android:layout_marginEnd="10dp"
         android:text="Pueden Comentar." />
 
-    <TextView
+    <EditText
         android:id="@+id/comentarios_compartirfrag"
 
         android:layout_width="266dp"
