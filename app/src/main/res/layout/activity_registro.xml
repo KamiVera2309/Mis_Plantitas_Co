@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="184dp"
         android:ems="10"
         android:fontFamily="monospace"
         android:hint="Nombre"
@@ -70,24 +70,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextContraseña"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="44dp"
         android:fontFamily="monospace"
         android:ems="10"
 
         android:hint="Contraseña"
-
         android:inputType="textPassword"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
 
     <EditText
         android:id="@+id/editTextEmail"
@@ -95,51 +92,17 @@
         android:layout_height="wrap_content"
 
         android:layout_marginTop="44dp"
-        android:fontFamily="monospace"
         android:ems="10"
 
-        android:hint="Contraseña"
-        android:inputType="textPassword"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
-
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_marginTop="36dp"
         android:fontFamily="monospace"
-        android:ems="10"
-
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/numeroTelefono" />
-
-    <EditText
-        android:id="@+id/numeroTelefono"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_marginTop="44dp"
-        android:fontFamily="monospace"
-        android:ems="10"
-
-        android:hint="Telefono"
-        android:inputType="phone"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNombre" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNombre"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textoRegistrarUsuario"
